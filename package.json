@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js",
-    "build": "npm run build"
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm run install"
   },
   "keywords": [],
   "author": "",
